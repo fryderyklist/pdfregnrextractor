@@ -53,15 +53,23 @@ pip --version
 ```
 
 
-## Ausführen 
+## Abhängigkeiten installieren und Skript ausführen 
 
 Alle zu extrahierenden PDF-Dateien in den Ordner 'pdfs' des Projekts legen.
 Via CMD in das Projekt navigieren
+
+
 
 e.g.
 
 ```bash
 cd ~/pdfregnrextractor
+```
+
+Abhängigkeiten installieren
+
+```bash
+pip install -r requirements.txt
 ```
 
 Skript starten:

@@ -69,7 +69,8 @@ cd ~/pdfregnrextractor
 Abhängigkeiten installieren
 
 ```bash
-pip install -r requirements.txt
+pip install fitz
+pip install -U PyMuPDF
 ```
 
 Skript starten:
